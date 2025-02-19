@@ -1,30 +1,3 @@
-/*=========================================================
-Author       : Bestwebcreator.
-Template Name: Cryptoking - Bitcoin & ICO Cryptocurrency Landing Page HTML Template
-Version      : 1.5
-==============================================================*/
-
-/*=============================================================
-    CSS INDEX
-    =============================
-    01. GENERAL STYLE (body, link color, section-title, overlay, section-padding etc)
-    02. HEADER DESIGN
-	03. BANNER SECTION
-	04. HOW IT WORKS SECTION
-	05. ABOUT SECTION
-	06. TOKEN SECTION
-	07. TIMELINE SECTION
-	08. TEAM SECTION
-	09. FAQ SECTION
-	10. CLIENT SECTION
-	11. CONTACT SECTION
-	12. FOOTER SECTION
-	13. BLOG PAGE
-	14. LOGIN PAGE
-	15. MOBILE APP SECTION
-	16. WHITEPAPER SECTION
-*=============================================================*/
-  
 /*===================================*
   01. GENERAL STYLE
  *===================================*/
@@ -1187,11 +1160,11 @@ header a:hover,.navbar-nav li a.active {
 }
 .banner_image_right {
 	min-width: 690px;
-	height: 20rem;
+	height: 25rem;
 	background-image: url('../images/banner_vector2.png');
 	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position-y: 40%;
+	background-size: auto 100%;
+	background-position: center;
 }
 .banner_image_left {
 	left: -25%;
