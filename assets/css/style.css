@@ -87,6 +87,25 @@ li {
 	background-position: center;
 	background-size: 50%;
 }
+.row.product div.card:active,
+.row.product div.card:focus,
+.row.product div.card:hover
+{
+	box-shadow: none;
+	border-color: #eee;
+}
+#framework img,#experience img {
+	width: 100%;
+}
+#framework img:active,
+#framework img:focus,
+#framework img:hover,
+#experience img:active,
+#experience img:focus,
+#experience img:hover
+{
+	width: 97.5%;
+}
 .row.product div.card:first-of-type {
 	background-image: url('../images/device1.png');
 }
@@ -1168,6 +1187,11 @@ header a:hover,.navbar-nav li a.active {
 }
 .banner_image_right {
 	min-width: 690px;
+	height: 20rem;
+	background-image: url('../images/banner_vector2.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position-y: 40%;
 }
 .banner_image_left {
 	left: -25%;
