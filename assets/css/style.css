@@ -59,7 +59,7 @@ li {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 50%;
-	cursor: pointer;
+	cursor: default;
 }
 .row.product div.card:active,
 .row.product div.card:focus,
@@ -68,18 +68,48 @@ li {
 	box-shadow: none;
 	border-color: #eee;
 }
-#framework img,#experience img {
+.row.product:has(div.card:active) h2,
+.row.product:has(div.card:focus) h2,
+.row.product:has(div.card:hover) h2
+{
+	color: rgb(255, 204, 0);
+}
+#framework img {
 	width: 100%;
+	cursor: default;
+}
+#experience .col-lg-2 .text-center {
+	height: 5rem;	
+}
+#experience img {
+	height: 4.9rem;
+	width: auto;
+	cursor: default;
 }
 #framework img:active,
 #framework img:focus,
-#framework img:hover,
+#framework img:hover
+{
+	width: 97.5%;
+}
+#framework:has(img:active) h2,
+#framework:has(img:focus) h2,
+#framework:has(img:hover) h2
+{
+	color: rgb(255, 204, 0);
+}
 #experience img:active,
 #experience img:focus,
 #experience img:hover
 {
-	width: 97.5%;
-	cursor: pointer;
+	height: 5rem;
+	width: auto;
+}
+#experience:has(img:active) h2,
+#experience:has(img:focus) h2,
+#experience:has(img:hover) h2
+{
+	color: rgb(255, 204, 0);
 }
 .row.product div.card:first-of-type {
 	background-image: url('../images/device1.png');
@@ -87,11 +117,33 @@ li {
 .row.product div.card {
 	background-image: url('../images/device2.png');
 }
-#contact ul a:hover li i, #contact ul a:hover li span {
+#contact:has(ul a:active) h2,
+#contact:has(ul a:focus) h2,
+#contact:has(ul a:hover) h2,
+#contact ul a:active li i,
+#contact ul a:focus li i,
+#contact ul a:hover li i,
+#contact ul a:active li span,
+#contact ul a:focus li span,
+#contact ul a:hover li span
+{
 	color: rgb(255, 204, 0) !important;
 }
 .row.product .d-flex div.card:last-of-type {
 	background-image: url('../images/device3.png');
+}
+.pointer-effect {
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	position: fixed;
+	margin: 0;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	background: black;
+	opacity: .15;
+	z-index: 1000;
 }
 .form-control::-webkit-input-placeholder {
 	color: #7ab9ff;
