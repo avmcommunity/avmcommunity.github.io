@@ -59,6 +59,7 @@ li {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 50%;
+	cursor: pointer;
 }
 .row.product div.card:active,
 .row.product div.card:focus,
@@ -78,6 +79,7 @@ li {
 #experience img:hover
 {
 	width: 97.5%;
+	cursor: pointer;
 }
 .row.product div.card:first-of-type {
 	background-image: url('../images/device1.png');
