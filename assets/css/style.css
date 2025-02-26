@@ -129,7 +129,7 @@ li {
 {
 	color: rgb(255, 204, 0) !important;
 }
-.row.product .d-flex div.card:last-of-type {
+.row.product div.card:last-of-type {
 	background-image: url('../images/device3.png');
 }
 .pointer-effect {
@@ -980,6 +980,12 @@ to {
 	background-position: left 25%;
 	background-size: 50%;
 }
+.shap1.img {
+	top: 10% !important;
+	height: 358px;
+	right: 3%;
+	background-size: auto 100%;
+}
 .shap1.terms {
 	opacity: .25;
 	background-image: url("../images/terms.png");
@@ -987,6 +993,13 @@ to {
 @media (min-width: 1280px) {
 	.shap1,.shap1.terms {
 		opacity: 1;
+	}
+	.shap1.img {
+		top: 5% !important;
+		height: 558px;
+		right: 3%;
+		background-size: auto 100%;
+		background-position: center;
 	}
 }
 .shap0 {
