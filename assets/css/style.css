@@ -145,6 +145,11 @@ li {
 	opacity: .15;
 	z-index: 1000;
 }
+.backlinks {
+	max-height: 0;
+	padding: 0;
+	overflow: hidden;
+}
 .form-control::-webkit-input-placeholder {
 	color: #7ab9ff;
 	font-weight: 400;
