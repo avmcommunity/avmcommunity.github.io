@@ -150,6 +150,9 @@ li {
 	padding: 0;
 	overflow: hidden;
 }
+.time {
+	min-height: 100%;
+}
 .form-control::-webkit-input-placeholder {
 	color: #7ab9ff;
 	font-weight: 400;
@@ -1006,6 +1009,10 @@ to {
 		background-size: auto 100%;
 		background-position: center;
 	}
+	.light_rounded_shape4.mosque {
+		background-size: 100% auto !important;
+		background-position: center left !important;
+	}
 }
 .shap0 {
 	background-image: url("../images/shape0.png");
@@ -1068,6 +1075,14 @@ to {
 	left: auto;
 	right: 0;
 	top: auto;
+}
+.light_rounded_shape4.mosque {
+	background-image: url("../images/mosque.png");
+	background-size: auto 100%;
+	background-position: center top;
+	min-width: 100%;
+	min-height: 100%;
+	opacity: .5;
 }
 .light_rounded_shape5 {
 	background-image: url("../images/light_rounded-shape5.png");
