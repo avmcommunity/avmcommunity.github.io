@@ -153,6 +153,12 @@ li {
 .time {
 	min-height: 100%;
 }
+.time h2:not(.text-muted):first-of-type {
+	font-family: "Rakkas", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5rem !important;
+}
 .form-control::-webkit-input-placeholder {
 	color: #7ab9ff;
 	font-weight: 400;
