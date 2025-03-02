@@ -159,6 +159,9 @@ li {
 	font-style: normal;
 	font-size: 5rem !important;
 }
+.time h2.text-muted span {
+	text-transform: none;
+}
 .form-control::-webkit-input-placeholder {
 	color: #7ab9ff;
 	font-weight: 400;

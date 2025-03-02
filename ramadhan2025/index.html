@@ -93,14 +93,14 @@
 <a href="#" class="scrollup btn-default" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
 
 <script>
-  let date = new Date()
-  let day = date.getDate()
+  let d = new Date()
   let imsak = ['',40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,39,39,39,39,39,39,39,39,38,38,38,38,38]
   let maghrib = ['',14,13,13,12,12,12,11,11,10,10,10,'09','09','08','08','07','07','06','06','05','05','04','04','04','03','03','02','02','01','01']
+  let day = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
 
-  document.body.querySelector('#time .title_light span').innerHTML = "Jakarta, Mar" + " " + day + " 2025"
-  document.body.querySelector('.clock1').innerHTML = "4 : " + imsak[day] + " AM"
-  document.body.querySelector('.clock2').innerHTML = "6 : " + maghrib[day] + " PM"
+  document.body.querySelector('#time .title_light span').innerHTML = "Jakarta, " + day[d.getDay()] + " Mar" + " " + d.getDate() + " 2025"
+  document.body.querySelector('.clock1').innerHTML = "4 : " + imsak[d.getDate()] + " AM"
+  document.body.querySelector('.clock2').innerHTML = "6 : " + maghrib[d.getDate()] + " PM"
 </script> 
 
 <!-- Latest jQuery --> 
