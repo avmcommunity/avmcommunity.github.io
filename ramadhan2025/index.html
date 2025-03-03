@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 <title>AVM Community – Ramadhan 2025</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="jasa pembuatan website aplikasi software dan IT support malang, jasa pembuatan website aplikasi software dan IT support surabaya, jasa pembuatan website aplikasi software dan IT support bandung, jasa pembuatan website aplikasi software dan IT support jakarta, jasa pembuatan website aplikasi software dan IT support jember, jasa pembuatan website aplikasi software dan IT support denpasar" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="theme-color" content="#000000" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="jasa buat website software aplikasi komputer engineer development klinik toko kasir travel fleet logistik barbershop tiket management sistem denpasar tangerang depok malang jakarta surabaya bandung kupang mataram pontianak padang" />
 <meta name="description" content="Jasa pembuatan website aplikasi software developer dan IT support malang jakarta surabaya bandung jember denpasar terbaik sejak 2013 - Official: Malang Mulyorejo Sukun, East Java ID 65147 - Bandung Sukahaji Bbk Ciparay, West Java ID 40221" />
 <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico">
 <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
@@ -89,18 +90,17 @@
 </footer>
 <!-- END FOOTER SECTION --> 
 
-<div class="pointer-effect"></div> 
-<a href="#" class="scrollup btn-default" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
-
 <script>
   let d = new Date()
   let imsak = ['',40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,39,39,39,39,39,39,39,39,38,38,38,38,38]
   let maghrib = ['',14,13,13,12,12,12,11,11,10,10,10,'09','09','08','08','07','07','06','06','05','05','04','04','04','03','03','02','02','01','01']
   let day = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+  let t = d.getHours() >= 21 ? d.getDate() + 1 : d.getDate()
+  let n = d.getHours() >= 21 ? d.getDay() + 1 : d.getDay()
 
-  document.body.querySelector('#time .title_light span').innerHTML = "Jakarta, " + day[d.getDay()] + " Mar" + " " + d.getDate() + " 2025"
-  document.body.querySelector('.clock1').innerHTML = "4 : " + imsak[d.getDate()] + " AM"
-  document.body.querySelector('.clock2').innerHTML = "6 : " + maghrib[d.getDate()] + " PM"
+  document.body.querySelector('#time .title_light span').innerHTML = "Jakarta, " + day[n] + " Mar " + t + " 2025"
+  document.body.querySelector('.clock1').innerHTML = "4 : " + imsak[t] + " AM"
+  document.body.querySelector('.clock2').innerHTML = "6 : " + maghrib[t] + " PM"
 </script> 
 
 <!-- Latest jQuery --> 
