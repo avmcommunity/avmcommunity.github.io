@@ -1,0 +1,57 @@
+
+.header_wrap {
+	background: #000 !important;
+}
+
+button.navbar-toggler {
+	background: #333;
+	color: #000;
+}
+
+button.navbar-toggler span {
+	color: white;
+}
+
+button.navbar-toggler:active {
+	opacity: .75;
+}
+
+.navbar-collapse.show {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	height: 100% !important;
+	width: 100% !important;
+}
+
+.navbar-collapse.show .layer {
+	background: #000;
+	height: 100% !important;
+	width: 100% !important;
+	opacity: .85;
+}
+
+.navbar-collapse.show ul {
+	display: block !important;
+	width: fit-content;
+	height: fit-content;
+	position: fixed;
+	margin: auto !important;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.row.report div.card {
+	background: white;
+	box-shadow: none;
+}
+
+.row.report div.card-header {
+	background-color: unset;
+}
+
+.row.report div.cart {
+	height: 200px;
+}

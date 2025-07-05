@@ -1,8 +1,3 @@
-/*===================================
-Author       : Bestwebcreator.
-Template Name: Cryptoking - Bitcoin & ICO Cryptocurrency Landing Page HTML Template
-Version      : 1.5
-===================================*/
 
 /*===================================*
 LANDING PAGE JS
