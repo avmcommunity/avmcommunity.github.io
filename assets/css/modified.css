@@ -57,6 +57,13 @@ button.navbar-toggler:active {
 	justify-items: center;
 }
 
+.row.present:has(div.cart:active) h2,
+.row.present:has(div.cart:focus) h2,
+.row.present:has(div.cart:hover) h2
+{
+	color: rgb(255, 204, 0);
+}
+
 .row.present div.cart canvas {
 	min-height: 100%;
 	max-width: 100%;
