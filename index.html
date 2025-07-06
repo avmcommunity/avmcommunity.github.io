@@ -18,7 +18,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/modified.css">
-<script src="assets/js/jquery.min.js"></script>  
 </head>
 
 <body class="v_dark_light" data-spy="scroll" data-offset="110">
@@ -43,7 +42,7 @@
           <li><a class="nav-link page-scroll" href="#workflow">How To Work</a></li>
           <li><a class="nav-link page-scroll" href="#service">Service</a></li>
           <li><a class="nav-link page-scroll" href="#framework">Framework</a></li>
-          <li class="d-none"><a class="nav-link page-scroll" href="#report">Report</a></li>
+          <li><a class="nav-link page-scroll" href="#present">Present</a></li>
           <li><a class="nav-link page-scroll" href="#terms">Why Us</a></li>
           <li><a class="nav-link page-scroll" href="#experience">Experience</a></li>
           <li><a class="nav-link page-scroll" href="#contact">Contact</a></li>
@@ -221,34 +220,37 @@
 <!-- END SECTION ABOUT US --> 
 
 <!-- START SECTION HOW IT WORK -->
-<section id="report" class="how_work d-none" data-parallax="scroll">
+<section id="present" class="present" data-parallax="scroll">
   <div class="container">
-    <div class="row report">
+    <div class="row present">
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="title_dark p-3">
-          <h2 class="text-center">Report</h2>
-          <p class="text-center mb-5">How we providing them best of analyze.</p>
+          <h2 class="text-center">Present</h2>
+          <p class="text-center mb-5">How we providing them best of business analyze.</p>
 
             <div class="d-grid d-lg-flex gap-4 gap-lg-3 col-12">
-              <div class="card col-lg-4 col-md-12 col-sm-12 px-2 py-4">
-                <div class="card-body cart" id="chart-pie">
+              <div class="card col-lg-4 col-md-12 col-sm-12 px-2 py-3">
+                <div class="card-body cart">
+                  <canvas id="chart-pie"></canvas>
                 </div>
                 <div class="card-header text-center border-0">
                   <h6 class="mb-0 text-muted">Decision</h6>
                 </div>
               </div>
-              <div class="card col-lg-4 col-md-12 col-sm-12 px-2 py-4">
-                <div class="card-body cart" id="chart-line">
+              <div class="card col-lg-4 col-md-12 col-sm-12 px-2 py-3">
+                <div class="card-body cart">
+                  <canvas id="chart-line"></canvas>
                 </div>
                 <div class="card-header text-center border-0">
                   <h6 class="mb-0 text-muted">Forecast</h6>
                 </div>
               </div>
-              <div class="card col-lg-4 col-md-12 col-sm-12 px-2 py-4">
-                <div class="card-body cart" id="chart-bar">
+              <div class="card col-lg-4 col-md-12 col-sm-12 px-2 py-3">
+                <div class="card-body cart">
+                  <canvas id="chart-bar"></canvas>
                 </div>
                 <div class="card-header text-center border-0">
-                  <h6 class="mb-0 text-muted">Classificate</h6>
+                  <h6 class="mb-0 text-muted">Classified</h6>
                 </div>
               </div>
             </div>
@@ -475,8 +477,8 @@
 <script src="assets/js/scripts.js"></script>
 <script src="assets/js/cursor.js"></script>
 
-<script src="assets/js/chart.js"></script>  
-<script src="assets/js/app.js"></script>  
+<script src="assets/js/chart.js"></script>
+<script src="assets/js/app.js"></script>
 
 </body>
 </html>

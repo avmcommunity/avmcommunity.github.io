@@ -43,15 +43,21 @@ button.navbar-toggler:active {
 	bottom: 0;
 }
 
-.row.report div.card {
+.row.present div.card {
 	background: white;
 	box-shadow: none;
 }
 
-.row.report div.card-header {
+.row.present div.card-header {
 	background-color: unset;
 }
 
-.row.report div.cart {
+.row.present div.cart {
 	height: 200px;
+	justify-items: center;
+}
+
+.row.present div.cart canvas {
+	min-height: 100%;
+	max-width: 100%;
 }
